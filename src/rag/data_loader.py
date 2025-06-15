@@ -5,7 +5,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # ========= LOAD PDF ========== #
 print(f"Current dir: {os.getcwd()}")
-pdf_path = "../../data/documents/mbase.pdf"
+pdf_path = "../data_ingestion/documents/mbase.pdf"
 if not os.path.exists(pdf_path):
     raise FileNotFoundError(f"PDF File not found: {pdf_path}")
 
