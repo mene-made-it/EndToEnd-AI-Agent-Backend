@@ -1,0 +1,5 @@
+# src/llms/embedding_models/__init__.py
+
+from .openai_embeddings import create_openai_embedding_model
+from .gemini_embeddings import create_gemini_embedding_model
+from .huggingface_embeddings import create_huggingface_embedding_model
